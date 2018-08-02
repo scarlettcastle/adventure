@@ -1,4 +1,6 @@
-.bg{
+.scarbg{
+	width: 350px;
+height: 400px;
 	  overflow:hidden;
 		background:#b4ddf0;
 		position: absolute;
@@ -7,7 +9,7 @@
 		right:0;
 		bottom:0;
 }
-.mountain, .mountain-two, .mountain-three {
+.scarmountain, .scarmountain-two, .scarmountain-three {
     position: absolute;
     bottom: 0;
     border-left: 150px solid transparent;
@@ -15,19 +17,19 @@
     border-bottom: 180px solid #7ac1e4;
     z-index: 1;
 }
-.mountain-two { 
+.scarmountain-two { 
     left: 80px;
     bottom: -20px;
     opacity: .3;
     z-index: 0;
 }
-.mountain-three {
+.scarmountain-three {
     left: -60px;
     bottom:-10px;
     opacity: .5;
     z-index: 0;
 }
-.mountain-top {
+.scarmountain-top {
     position: absolute;
     right: -65px;
     border-left: 65px solid transparent;
@@ -35,17 +37,17 @@
     border-bottom: 77px solid #ceeaf6;
     z-index: 2;
 }
-.mountain-cap-1, .mountain-cap-2, .mountain-cap-3 {
+.scarmountain-cap-1, .scarmountain-cap-2, .scarmountain-cap-3 {
     position: absolute;
     top: 70px;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
     border-top: 25px solid #ceeaf6;
 }
-.mountain-cap-1 { left: -55px; }
-.mountain-cap-2 { left: -25px; }
-.mountain-cap-3 { left: 5px; }
-.cloud, .cloud:before, .cloud:after {
+.scarmountain-cap-1 { left: -55px; }
+.scarmountain-cap-2 { left: -25px; }
+.scarmountain-cap-3 { left: 5px; }
+.scarcloud, .scarcloud:before, .scarcloud:after {
   position: absolute;
   width: 70px;
 	height: 30px;
@@ -53,25 +55,25 @@
 	-webkit-border-radius: 100px / 50px;
 	border-radius: 100px / 50px;
 }
-.cloud { 
+.scarcloud { 
   bottom: 100px;
-  -webkit-animation: cloud 50s infinite linear;
-          animation: cloud 50s infinite linear;
+  -webkit-animation: scarcloud 50s infinite linear;
+          animation: scarcloud 50s infinite linear;
 }
-@-webkit-keyframes cloud {
+@-webkit-keyframes scarcloud {
     0%   { left: -100px; }
     100% { left: 1000px; } 
 }
-@keyframes cloud {
+@keyframes scarcloud {
    
     0%   { left: -100px; }
     100% { left: 1000px; } 
 }
-.cloud:before {
+.scarcloud:before {
   content: '';
   left: 50px;
 }
-.cloud:after {
+.scarcloud:after {
   content: '';
   left: 25px;
   top: -10px;
